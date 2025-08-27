@@ -1,12 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagem com elemento</title>
-    <link rel="stylesheet" href="../css/imagem.css">
+    <title>Netflix</title>
+    <style>
+        body{
+            background-color: #222;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+        img{
+            height: 170px;
+            width: auto;
+        }
+        .preto{
+            background-color: black;
+        }
+        table{
+            border: solid black 2px; /* Borda da tabela */
+            background-color:#111;
+            width:100% ;
+            margin: auto;
+            border-collapse: collapse;
+            text-align: center;
+            border: 0px;
+        }
+        .vermelho{
+            color:red
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <img src="../aquivos/imagnes/logo-netflix.png"
+<table>
+        <thead>
+            <tr>
+                <th colspan="6" class="preto"><img src="../aquivos/imagnes/logo-netflix.png"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th><a href="../index.html">Início</a></th>
+                <th>História</th>
+                <th>Séries </th>
+                <th>Filmes</th>
+                <th>Contato</th>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h3 class="vermelho">A História da Netflix</h3>
+    <h4>A Netflix foi fundada em 1997 por Reed Hastings e Marc Randolph como um serviço de aluguel de DVDs pela internet. A proposta era simples: enviar DVDs pelos correios, sem a necessidade de lojas físicas. essa inovação atraiu milhares de clientes rapidamente.</h4>
+    <br>
+    <h3 class="vermelho">O Início do Straming</h3>
+    <h4>Em 2007, a Netflix deu um grande salto tecnológico ao lançar seu serviço de streaming. A partir desde momento, os usuários puderam assistir a filmes e séries diretamente pela internet, sem precisar esperar o DVD chegar em casa. Essa decisão mudou para sempre a forma como consumimos entretenimento.</h4>
+    <br>
+    <h3 class="vermelho">Expansão Global</h3>
+    <h4>Hoje a Netflix está presente em mais de 190 países, com milhões de assinantes. Além de produções norte-americanas, a plataforma investe em conteúdos locais, como séries espanholas, brasileiras, indianas e coreanas, conquistando públicos de todas as idades.</h4>
+    <br>
+    <h3 class="vermelho">Impacto Cultural</h3>
+    <h4>A Netflix não apenas transformou a forma de assistir televisão, mas também influenciou a cultura pop mundial. Expressões como "maratonar uma série" se popularizaram, e títulos originais como Stranger Things, La casa de Papel e Round 6 se tornaram fenômenos globais.</h4>
+
+    <table>
+        <tfoot>
+            <tr>
+                <th>&copy; 2025 - Site de Exemplo sobre a História da netflix</th>
+            </tr>
+        </tfoot>
+        
+    </table>
 </body>
 </html>
